@@ -26,11 +26,7 @@ void NotInStock(void)
     cout << "| Stock Count  |" << endl;
  }; //End of basic Layout for table (Header).
 
-class test
-{
-  public:
-
-  void search_data()
+ void search_data()
   {
     string author_name;
     string book_title;
@@ -66,6 +62,13 @@ class test
 
 */
 };
+}
+
+class test
+{
+  public:
+
+
   test() : author_("Deitel & Deitel"),
            title_("C++...Program"),
            unitprice_(2500.00),
