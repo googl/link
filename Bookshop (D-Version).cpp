@@ -25,7 +25,7 @@ void NotInStock(void)
     cout << "| Stock Count 	|" << endl;
  };
     
-	void search_data()
+/*	void search_data()
  {	
 	string author_name;
 	string book_title;
@@ -35,7 +35,7 @@ void NotInStock(void)
  	cout <<"Enter Book Title" << endl;
  	cin  >> book_title >> endl;
  }   
-    
+    */
 int main()
 {
 		
