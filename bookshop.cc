@@ -63,7 +63,7 @@ namespace {
   void PrintStockTableHeader(void) {
     cout << setw(80) << setfill('_') << '\n' << setfill(' ') <<
     '|' << setw(41) << "BOOKSHOP DATABASE" << setw(38) << '|' << '\n' <<
-    setw(80) << setfill('_') << '\n' << setfill(' '); 
+    setw(80) << setfill('_') << '\n' << setfill(' ');
 /*    "| Author's Name |" <<
     "  Book Title      |" <<
     " Unit Price |" <<
@@ -76,16 +76,16 @@ namespace {
     cout << "| Book Title        ";
     cout << "| Unit Price ";  // about 12 spaces wide
     cout << "| Stock Count |"; // about 13 spaces
-    
+
   };
 
 // Attempt at a search function
-  *SearchAuthorTitle(std::string author, std::string title, Books *booklist) {
+//  *SearchAuthorTitle(std::string author, std::string title, Books *booklist) {
       for(int i=0; i <= 10; ++i)
 // author and title string matches list instance
-      (booklist[i].author_ == author && books[i].title_ == title) ?: booklist.ConstomerWants();
-    };
-// If 
+//      (booklist[i].author_ == author && books[i].title_ == title) ?: booklist.ConstomerWants();
+//    };
+// If
 
 // BookSearch(std::string, std::string) { }
 class Books {
@@ -99,7 +99,7 @@ class Books {
 //      {cout << "|" <<  author_ << " | " << title_ << " | " << unitprice_ <<
 //      " | " << publisher_ << " | " << quantity_ <<  "|" << '\n';
 //      };
-    double CustomerWants(int quantity) {quantity_ <=  quantity ?: NotInStock() : return quantity * unitprice_;
+//    double CustomerWants(int quantity) {quantity_ <=  quantity ?: NotInStock() : return quantity * unitprice_;
   private:
     std::string author_;
     std::string title_;
@@ -110,8 +110,8 @@ class Books {
 
 
 int main() {
-NotInStock();
+NotInStock();  // here to test if function works
 PrintStockTableHeader();
-Books shelf;
-shelf;
+// Books shelf;  // operator new should be used. how?
+// shelf;
 }
