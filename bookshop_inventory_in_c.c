@@ -18,7 +18,7 @@ class  Record
 //       date;
        string   publisher[10];
        int    quantity;
-};
+}
 int look_up(struct record table[],char s1[],char s2[],int m);
     void get (charstring [ ] );
    main()
