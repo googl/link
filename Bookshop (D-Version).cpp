@@ -53,12 +53,13 @@ int main()
 {
 
   TableLayout();
+
   test test_obj;
   test_obj.search_data();
 
-  //system("pause");
-// to test variables
-//cout << book_title << "by" << author_name;
+  	//system("pause");
+	// to test variables
+	//cout << book_title << "by" << author_name;
 
   return 0;
 }
