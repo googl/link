@@ -41,8 +41,9 @@ class test
     getline(cin,book_title);
     
     if(author_name == "Deitel & Deitel") 
-	    NotInStock()
-    
+	   {
+   		NotInStock()
+	   }
   }
 
 	void setName(string author_name)
