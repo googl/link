@@ -25,12 +25,23 @@ void NotInStock(void)
     cout << "| Stock Count 	|" << endl;
  };
     
-    
+	void search_data()
+ {	
+	string author_name;
+	string book_title;
+	
+ 	cout <<"Enter Author's Name: " << endl;
+ 	cin  >> author_name >> endl;
+ 	cout <<"Enter Book Title" << endl;
+ 	cin  >> book_title >> endl;
+ }   
     
 int main()
 {
-	
+		
 	TableLayout();	
 	//system("pause");
+
+
 	return 0;
 }
