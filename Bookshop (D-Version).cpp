@@ -26,6 +26,16 @@ void NotInStock(void)
  };
     
 
+void search_data()
+ {	
+	char author_name[30];
+	char book_title[50];
+	
+ 	cout <<"Enter Author's Name: " << endl;
+ 	cin  >> author_name;
+ 	cout <<"Enter Book Title: " << endl;
+ 	cin  >> book_title;
+ }   
  
 int main()
 {
