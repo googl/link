@@ -65,6 +65,8 @@ void NotInStock(void) { cout << "Not in stock" << endl;};
 };
 }
 
+// Array may require a more advanced for array called vectors.
+
 class test
 {
 // getters work
