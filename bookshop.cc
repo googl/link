@@ -81,7 +81,7 @@ namespace {
 
 // Attempt at a search function
 //  *SearchAuthorTitle(std::string author, std::string title, Books *booklist) {
-      for(int i=0; i <= 10; ++i)
+//      for(int i=0; i <= 10; ++i)
 // author and title string matches list instance
 //      (booklist[i].author_ == author && books[i].title_ == title) ?: booklist.ConstomerWants();
 //    };
