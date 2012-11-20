@@ -13,14 +13,14 @@ void NotInStock(void)
  //Basic Layout for table (Header).
  void TableLayout()
  { 	
-  	cout << "|==========================================================================|" << endl;
- 	cout << "|\t\t\t Bookshop Inventory	\t\t|								   			|" << endl;
- 	cout << "|==========================================================================|" << endl;
+  	cout << "|==============================================================================|\n" << endl;
+ 	cout << "\t\t\t\t Bookshop Inventory	\t\t\t								   			\n";
+ 	cout << "|==============================================================================|" << endl;
  	cout << "| Author's Name|";
     cout << "| Book Title   |"; 
     cout << "| Unit Price 	|";
     cout << "| Publisher   	|"; 
-    cout << "| Stock Count 	|" << endl;
+    cout << "| Stock Count 	||" << endl;
  };
     
     
