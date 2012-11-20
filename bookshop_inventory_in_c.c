@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class  Record
+class Books
    {
        string   author;
        string    title;
