@@ -37,7 +37,7 @@ class search_data()
  	cin  >> author_name;
  	cout <<"Enter Book Title: " << endl;
  	cin  >> book_title;
- }   
+ };  
  
 int main()
 {
