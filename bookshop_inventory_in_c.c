@@ -1,7 +1,7 @@
-/* This code is broken */
+// This code is broken
 
-   #include   <stdio.h>
-   #include   <string.h>
+#include   <iostream>
+#include   <string>
 
 // using namespace std;
 
