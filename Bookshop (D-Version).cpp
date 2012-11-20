@@ -11,9 +11,7 @@ void NotInStock(void)
  };
  
  void TableLayout()
- {
- 	public:
- 	
+ { 	
  	cout << "| Author's Name 	|";
     cout << "| Book Title       |"; 
     cout << "| Unit Price 		|";
