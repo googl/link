@@ -11,38 +11,19 @@ void NotInStock(void)
  };  //End of function
  
  //Basic Layout for table (Header).
+// setw(40) works better than \t
  void TableLayout()
  { 	
-  	cout << "|==============================================================================|\n" << endl;
- 	cout << "\t\t\t\t Bookshop Inventory	\t\t\t								   			\n";
- 	cout << "|==============================================================================|" << endl;
+  	cout << "|==========================================================================|" << '\n';
+        cout << '|' << setw(40) << "Bookshop Inventory" << setw(38) << '|' << '\n';  // use endl to push to screen
+ 	cout << "|\t\t\t Bookshop Inventory	\t\t|								   			|" << endl;
+ 	cout << "|==========================================================================|" << endl;
  	cout << "| Author's Name|";
     cout << "| Book Title   |"; 
     cout << "| Unit Price 	|";
     cout << "| Publisher   	|"; 
-    cout << "| Stock Count |" << endl;
+    cout << "| Stock Count 	|" << endl;
  };
-
-class Books
-{
-	public:
-    Books() : author_("Deitel & Deitel"),
-              title_("C++...Program"),
-              unitprice_(2500.00),
-              publisher_("Pearson"),
-              quantity_(15)
-              {}
-//      {cout << "|" <<  author_ << " | " << title_ << " | " << unitprice_ <<
-//      " | " << publisher_ << " | " << quantity_ <<  "|" << '\n';
-//      };
-//    double CustomerWants(int quantity) {quantity_ <=  quantity ?: NotInStock() : return quantity * unitprice_;
-	private:
-    string author_;
-    string title_;
-    double unitprice_;
-    string publisher_;
-    int quantity_;
-  };
     
     
     
