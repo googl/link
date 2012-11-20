@@ -48,8 +48,8 @@ int main()
 
   TableLayout();
 
-  test test_obj;
-  test_obj.search_data();
+//  test test_obj;
+//  test_obj.search_data();
 
   	//system("pause");
 	// to test variables
