@@ -45,7 +45,7 @@ class test
    		NotInStock()
 	   }
   }
-
+//help!!!
 	void setName(string author_name)
 	{
 		author_name = "Deitel & Deitel";
