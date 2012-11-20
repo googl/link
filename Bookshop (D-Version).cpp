@@ -16,8 +16,7 @@ void NotInStock(void)
  void TableLayout()
  { 	
   	cout << "|==========================================================================|" << '\n';
-        cout << '|' << setw(40) << "Bookshop Inventory" << setw(38) << '|' << '\n';  // use endl to push to screen
-//	cout << "|\t\t\t Bookshop Inventory	\t\t|								   			|" << endl;
+    cout << '|' << setw(40) << "Bookshop Inventory" << setw(38) << '|' << '\n';  // use endl to push to screen
  	cout << "|==========================================================================|" << endl;
  	cout << "| Author's Name|";
     cout << "| Book Title   |"; 
