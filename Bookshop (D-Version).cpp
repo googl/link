@@ -70,7 +70,7 @@ class test
   private:
     string author_;
     string title_;
-    double unitprice_;
+    double unitprice_;  // double larger than float
     string publisher_;
     int quantity_;
 }
