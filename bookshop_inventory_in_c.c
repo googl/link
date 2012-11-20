@@ -8,7 +8,7 @@ using namespace std;
 class  Record
    {
        string   author;
-       char    title[30];
+       char    title;
        float   price;
        struct
        {
