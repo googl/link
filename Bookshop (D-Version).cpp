@@ -53,6 +53,8 @@ int main()
 {
 
   TableLayout();
+  test test_obj;
+  test_obj.search_data();
   search_data();
 
   //system("pause");
