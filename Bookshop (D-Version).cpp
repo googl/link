@@ -66,6 +66,7 @@ void NotInStock(void)
 
 class test
 {
+// strings work
   public:
     string get_author(void)    { return author_;    }
     string get_title(void)     { return title_;     }
