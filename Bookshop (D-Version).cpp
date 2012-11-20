@@ -27,8 +27,8 @@ void NotInStock(void)
     
 /*	void search_data()
  {	
-	string author_name;
-	string book_title;
+	char author_name[30];
+	char book_title[50];
 	
  	cout <<"Enter Author's Name: " << endl;
  	cin  >> author_name >> endl;
