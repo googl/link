@@ -33,11 +33,9 @@ void search_data()
 	char book_title[50];
 	
  	cout <<"Enter Author's Name: " << endl;
- 	//cin  >> author_name;
- 	getline(cin, author_name);
+ 	cin  >> author_name;
  	cout <<"Enter Book Title: " << endl;
- 	//cin  >> book_title;
- 	getline(cin, book_title);
+ 	cin  >> book_title;
  }   
  
 int main()
