@@ -43,6 +43,9 @@ void search_data()
   getline(cin,book_title);
  }
 }
+
+class TestClass {
+  }
 int main()
 {
 
@@ -51,7 +54,7 @@ int main()
 
   //system("pause");
 // to test variables
-cout << ::book_title << "by" << ::author_name;
+//cout << book_title << "by" << author_name;
 
   return 0;
 }
