@@ -67,11 +67,11 @@ void NotInStock(void)
 class test
 {
   public:
-    string get_author(void)    { return author_);
-    string get_title(void)     { return title_);
-    double get_unitprice(void) { return unitprice_);
-    string get_publisher(void) { return publisher_);
-    int get_quantity(void)     { return quantity_);
+    string get_author(void)    { return author_);}
+    string get_title(void)     { return title_);}
+    double get_unitprice(void) { return unitprice_);}
+    string get_publisher(void) { return publisher_);}
+    int get_quantity(void)     { return quantity_);}
 
 
    test() : author_("Deitel & Deitel"),
