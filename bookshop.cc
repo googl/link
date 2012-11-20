@@ -51,6 +51,8 @@
 // #include <cstdio>
 #include <string>
 
+//usring namespace std;
+
 // put all global functions in an unnamed namespace so code is as OO as possible
 // if "using namespace std;" is more comfortable for you, uncomment it in header
 namespace {
