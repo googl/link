@@ -26,9 +26,8 @@ void NotInStock(void)
  };
     
 
-class search_data()
- {	
- 	protected:
+void search_data()
+ {
  	
 	char author_name[30];
 	char book_title[50];
@@ -37,10 +36,11 @@ class search_data()
  	cin  >> author_name;
  	cout <<"Enter Book Title: " << endl;
  	cin  >> book_title;
- };  
+ }   
  
 int main()
 {
+			
 	TableLayout();	
 	search_data();
 
