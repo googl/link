@@ -12,11 +12,11 @@ void NotInStock(void)
  
  void TableLayout()
  { 	
- 	cout << "| Author's Name 	|";
-    cout << "| Book Title       |"; 
-    cout << "| Unit Price 		|";
-    cout << "| Publisher   		|"; 
-    cout << "| Stock Count 		|";
+ 	cout << "| Author's Name|";
+    cout << "| Book Title   |"; 
+    cout << "| Unit Price 	|";
+    cout << "| Publisher   	|"; 
+    cout << "| Stock Count 	|"; << endl;
  };
     
     
