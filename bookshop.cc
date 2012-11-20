@@ -85,6 +85,7 @@ namespace {
   };
 
 // Attempt at a search function
+// Maybe using string.rfind in some sort of logic comparison works?
 //  *SearchAuthorTitle(std::string author, std::string title, Books *booklist) {
 //      for(int i=0; i <= 10; ++i)
 // author and title string matches list instance
