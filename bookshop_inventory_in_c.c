@@ -8,13 +8,13 @@ using namespace std;
 class  Record
    {
        string   author;
-       char    title;
+       string    title;
        float   price;
-       struct
-       {
-           char   month[10];
-           int    year;
-       }
+//       struct
+//      {
+//           char   month[10];
+//           int    year;
+//       }
        date;
        char   publisher[10];
        int    quantity;
