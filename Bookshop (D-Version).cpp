@@ -97,7 +97,7 @@ int main()
 
   test test_obj;
   search_data();
-  cout << test_obj.get_author();
+  cout << test_obj.get_author() << '\n';
 
     //system("pause");
 // to test variables
