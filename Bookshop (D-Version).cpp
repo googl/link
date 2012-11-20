@@ -31,7 +31,7 @@ class test
 {
   public:
 
-/*  void search_data()
+  void search_data()
   {
     string author_name;
     string book_title;
@@ -47,7 +47,7 @@ class test
      }
   }
 
-
+/*
   void setName(string author_name)
   {
     author_name = "Deitel & Deitel";
