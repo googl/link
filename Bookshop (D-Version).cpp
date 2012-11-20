@@ -16,7 +16,7 @@ void NotInStock(void)
     cout << "| Book Title   |"; 
     cout << "| Unit Price 	|";
     cout << "| Publisher   	|"; 
-    cout << "| Stock Count 	|"; << endl;
+    cout << "| Stock Count 	|" << endl;
  };
     
     
