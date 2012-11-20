@@ -16,7 +16,7 @@ void NotInStock(void)
  { 	
   	cout << "|==========================================================================|" << '\n';
         cout << '|' << setw(40) << "Bookshop Inventory" << setw(38) << '|' << '\n';  // use endl to push to screen
- 	cout << "|\t\t\t Bookshop Inventory	\t\t|								   			|" << endl;
+//	cout << "|\t\t\t Bookshop Inventory	\t\t|								   			|" << endl;
  	cout << "|==========================================================================|" << endl;
  	cout << "| Author's Name|";
     cout << "| Book Title   |"; 
