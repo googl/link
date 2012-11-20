@@ -5,7 +5,7 @@
 
 using namespace std;
 
-   struct  record
+class  record
    {
        char    author[20];
        char    title[30];
