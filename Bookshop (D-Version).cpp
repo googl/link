@@ -40,12 +40,13 @@ class test
     cout <<"Enter Book Title: " << endl;
     getline(cin,book_title);
 
-    if(author_name == "Deitel & Deitel")
+ /*   if(author_name == "Deitel & Deitel")
      {
       NotInStock()
      }
   }
-//help!!!
+
+*/
 	void setName(string author_name)
   {
     author_name = "Deitel & Deitel";
