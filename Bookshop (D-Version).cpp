@@ -66,6 +66,12 @@ class test
 
 */
 };
+  test() : author_("Deitel & Deitel"),
+           title_("C++...Program"),
+           unitprice_(2500.00),
+           publisher_("Pearson"),
+           quantity_(15)
+           {}
 
   private:
     string author_;
