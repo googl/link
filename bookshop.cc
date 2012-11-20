@@ -73,7 +73,7 @@ namespace {
 */
 // Share 80 spaces properly
     cout << "| Author's Name  ";  // about 17 spaces wide
-    cout << "| Book Title        ";
+    cout << "| Book Title        ";  //about 20 spaces wide
     cout << "| Unit Price ";  // about 12 spaces wide
     cout << "| Publisher   "  // about 14 spaces wide
     cout << "| Stock Count |"; // about 13 spaces
