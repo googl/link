@@ -30,7 +30,7 @@ class test
 {
   public:
 
-  void search_data()
+/*  void search_data()
   {
     string author_name;
     string book_title;
@@ -40,32 +40,32 @@ class test
     cout <<"Enter Book Title: " << endl;
     getline(cin,book_title);
 
- /*   if(author_name == "Deitel & Deitel")
+   if(author_name == "Deitel & Deitel")
      {
       NotInStock()
      }
   }
 
-*/
-	void setName(string author_name)
+
+  void setName(string author_name)
   {
     author_name = "Deitel & Deitel";
   }
-	void setTitle(string book_title)
+  void setTitle(string book_title)
   {
-    book_title = "C++...Program"; 
+    book_title = "C++...Program";
   }
-  	int setCount(int stock_count)
+    int setCount(int stock_count)
   {
-  	stock_count = 15;	
+    stock_count = 15;
   }
-  	float setUnitPrice(float unit_price)
-  	{
-		unit_price = 2500.00;  	
- 	}
-  	
+    float setUnitPrice(float unit_price)
+    {
+    unit_price = 2500.00;
+  }
 
-};
+
+};*/
 }
 
 
