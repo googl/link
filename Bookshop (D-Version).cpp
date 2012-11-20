@@ -24,23 +24,24 @@ void NotInStock(void)
     cout << "| Unit Price   |";
     cout << "| Publisher    |";
     cout << "| Stock Count  |" << endl;
- }; //End of basic Layout for table (Header). 
+ }; //End of basic Layout for table (Header).
 
 class test
 {
-	public:	
+  public:
 
-	void search_data()
- 	{
-	  string author_name;
-	  string book_title;
+  void search_data()
+  {
+    string author_name;
+    string book_title;
 
-	  cout <<"Enter Author's Name: " << endl;
-	  getline(cin,author_name);
-	  cout <<"Enter Book Title: " << endl;
-	  getline(cin,book_title);
- 	}
+    cout <<"Enter Author's Name: " << endl;
+    getline(cin,author_name);
+    cout <<"Enter Book Title: " << endl;
+    getline(cin,book_title);
+  }
 };
+}
 
 
 int main()
@@ -51,7 +52,7 @@ int main()
   test test_obj;
   test_obj.search_data();
 
-  	//system("pause");
+    //system("pause");
 // to test variables
 //cout << book_title << "by" << author_name;
 
