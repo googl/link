@@ -46,11 +46,14 @@ class test
      }
   }
 //help!!!
-  void setName(string author_name)
+	void setName(string author_name)
   {
     author_name = "Deitel & Deitel";
   }
-
+	void setTitle(string book_title)
+  {
+    book_title =  
+  }
 
 };
 }
