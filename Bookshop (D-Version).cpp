@@ -36,11 +36,11 @@ class Books
 //      " | " << publisher_ << " | " << quantity_ <<  "|" << '\n';
 //      };
 //    double CustomerWants(int quantity) {quantity_ <=  quantity ?: NotInStock() : return quantity * unitprice_;
-  private:
-    std::string author_;
-    std::string title_;
+	private:
+    string author_;
+    string title_;
     double unitprice_;
-    std::string publisher_;
+    string publisher_;
     int quantity_;
   };
     
