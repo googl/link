@@ -1,6 +1,10 @@
 /* This code is broken */
+
    #include   <stdio.h>
    #include   <string.h>
+
+// using namespace std;
+
    struct  record
    {
        char    author[20];
