@@ -3,3 +3,9 @@ weight before it ( number between 01-99).
 
 Should be a text file with instructions and
 ideas or plans for procession.
+
+If you don't know what weight to give it, prefix
+the file with _.
+
+No spaces in file names please? It is not Internet
+friendly (FYI, space= "%20"; looks awful)
