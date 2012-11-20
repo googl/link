@@ -41,6 +41,7 @@
  * - search function:
        input title and author; searches inventory, returns total cost and
        requested number of copies.
+   - use getline to enter strings; use
    - anymore observations follow the above syntax of TODO(name||email): <todos>
 */
 
