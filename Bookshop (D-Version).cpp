@@ -5,6 +5,7 @@ using namespace std;
 
 
 // Prints stock shortage to screen
+namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
  {
   cout << "Not in stock" << endl;
@@ -41,7 +42,7 @@ void search_data()
 //  cin  >> book_title;
   getline(cin,book_title);
  }
-
+}
 int main()
 {
 
@@ -49,7 +50,8 @@ int main()
   search_data();
 
   //system("pause");
-
+// to test variables
+cout
 
   return 0;
 }
