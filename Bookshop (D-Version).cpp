@@ -67,8 +67,10 @@ void NotInStock(void)
 class test
 {
   public:
-    string get_author(void){ cout << author_);
-    string get_title(void) { cout << title_
+    string get_author(void)    { return author_);
+    string get_title(void)     { return title_);
+    string get_unitprice(void)  { return unitprice_);
+    string get_publisher
 
    test() : author_("Deitel & Deitel"),
            title_("C++...Program"),
