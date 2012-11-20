@@ -69,8 +69,9 @@ class test
   public:
     string get_author(void)    { return author_);
     string get_title(void)     { return title_);
-    string get_unitprice(void)  { return unitprice_);
-    string get_publisher
+    double get_unitprice(void) { return unitprice_);
+    string get_publisher(void) { return publisher_);
+
 
    test() : author_("Deitel & Deitel"),
            title_("C++...Program"),
