@@ -35,6 +35,9 @@ void NotInStock(void)
     getline(cin,author_name);
     cout <<"Enter Book Title: " << endl;
     getline(cin,book_title);
+
+// Functions in function = bad idea.
+// Don't make a setter conditional
 /*
    if(author_name == "Deitel & Deitel")
      {
