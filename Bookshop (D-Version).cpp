@@ -26,7 +26,6 @@ void NotInStock(void)
     cout << "| Stock Count  |" << endl;
  }; //End of basic Layout for table (Header).
 
-}
 class test
 {
   public:
@@ -65,10 +64,11 @@ class test
     unit_price = 2500.00;
   }
 
-
-};*/
-
+*/
+};
 }
+
+
 int main()
 {
 
