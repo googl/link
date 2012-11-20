@@ -1,4 +1,5 @@
-//Copyright 2012 Dwayne Reid, Carey Riley
+// Copyright 2012 Dwayne Reid, Carey Riley
+// A bookshop inventory management system
 #include <iostream>
 #include <string>
 #include <iomanip>
