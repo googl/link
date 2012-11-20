@@ -14,7 +14,7 @@ void NotInStock(void)
  void TableLayout()
  { 	
   	cout << "|==========================================================================|" << endl;
- 	cout << "|\t\t\t Bookshop Inventory												    |" << endl;
+ 	cout << "|\t\t\t Bookshop Inventory	\t\t											    |" << endl;
  	cout << "|==========================================================================|" << endl;
  	cout << "| Author's Name|";
     cout << "| Book Title   |"; 
