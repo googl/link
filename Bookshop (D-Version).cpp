@@ -32,9 +32,9 @@ void NotInStock(void)
 	
  	cout <<"Enter Author's Name: " << endl;
  	cin  >> author_name >> endl;
- 	cout <<"Enter Book Title" << endl;
+ 	cout <<"Enter Book Title: " << endl;
  	cin  >> book_title >> endl;
- }   
+ };   
  
 int main()
 {
