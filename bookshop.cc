@@ -75,7 +75,9 @@ namespace {
     cout << "| Author's Name  ";  // about 17 spaces wide
     cout << "| Book Title        ";
     cout << "| Unit Price ";  // about 12 spaces wide
+    cout << "| Publisher   "  // about 14 spaces wide
     cout << "| Stock Count |"; // about 13 spaces
+  }
 
   };
 
