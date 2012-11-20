@@ -25,24 +25,27 @@ void NotInStock(void)
     cout << "| Publisher    |";
     cout << "| Stock Count  |" << endl;
  };
+ 
+class test
+{
+	public:	
 
+	void search_data()
+ 	{
 
-void search_data()
- {
+	//  char author_name[30];
+	//  char book_title[50];
+	  string author_name;
+	  string book_title;
 
-//  char author_name[30];
-//  char book_title[50];
-  string author_name;
-  string book_title;
-
-  cout <<"Enter Author's Name: " << endl;
-//  cin  >> author_name;
-  getline(cin,author_name);
-  cout <<"Enter Book Title: " << endl;
-//  cin  >> book_title;
-  getline(cin,book_title);
- }
-}
+	  cout <<"Enter Author's Name: " << endl;
+	//  cin  >> author_name;
+	  getline(cin,author_name);
+	  cout <<"Enter Book Title: " << endl;
+	//  cin  >> book_title;
+	  getline(cin,book_title);
+	 }
+};
 
 /*class TestClass {
   }*/
