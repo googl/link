@@ -22,6 +22,27 @@ void NotInStock(void)
     cout << "| Publisher   	|"; 
     cout << "| Stock Count |" << endl;
  };
+
+class Books
+{
+	public:
+    Books() : author_("Deitel & Deitel"),
+              title_("C++...Program"),
+              unitprice_(2500.00),
+              publisher_("Pearson"),
+              quantity_(15)
+              {}
+//      {cout << "|" <<  author_ << " | " << title_ << " | " << unitprice_ <<
+//      " | " << publisher_ << " | " << quantity_ <<  "|" << '\n';
+//      };
+//    double CustomerWants(int quantity) {quantity_ <=  quantity ?: NotInStock() : return quantity * unitprice_;
+  private:
+    std::string author_;
+    std::string title_;
+    double unitprice_;
+    std::string publisher_;
+    int quantity_;
+  };
     
     
     
