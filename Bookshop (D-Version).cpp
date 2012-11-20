@@ -74,7 +74,7 @@ class test
     string get_publisher(void) { return publisher_; }
     int get_quantity(void)     { return quantity_;  }
 
-
+//rename test to official name
    test() : author_("Deitel & Deitel"),
            title_("C++...Program"),
            unitprice_(2500.00),
