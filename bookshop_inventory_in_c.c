@@ -19,14 +19,16 @@ class Books
        string   publisher[10];
        int    quantity;
 }
-int look_up(struct record table[],char s1[],char s2[],int m);
+/*int look_up(struct record table[],char s1[],char s2[],int m);
     void get (charstring [ ] );
    main()
    {
 char title[30], author[20];
 int  index, no_of_records;
 char response[10], quantity[10];
-Books *inventory = new
+* */
+
+//Books *inventory = new
 /* {
 {"Ritche","C Language",45.00,"May",1977,"PHI",10},
 {"Kochan","Programming in C",75.50,"July",1983,"Hayden",5},
