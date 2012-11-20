@@ -77,6 +77,7 @@ namespace {
     cout << "| Unit Price ";  // about 12 spaces wide
     cout << "| Publisher   ";  // about 14 spaces wide
     cout << "| Stock Count |"; // about 13 spaces
+    cout << '\n' << '|' << setw(80) << setfill('_') << '\n' << setfill(' ');
   }
 
   };
