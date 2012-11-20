@@ -15,8 +15,8 @@ class  Record
 //           char   month[10];
 //           int    year;
 //       }
-       date;
-       char   publisher[10];
+//       date;
+       string   publisher[10];
        int    quantity;
 };
 int look_up(struct record table[],char s1[],char s2[],int m);
