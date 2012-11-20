@@ -26,7 +26,7 @@ void NotInStock(void)
 int main()
 {
 	
-	
+	TableLayout();	
 	//system("pause");
 	return 0;
 }
