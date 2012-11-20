@@ -25,7 +25,8 @@ void NotInStock(void)
     cout << "| Publisher    |";
     cout << "| Stock Count  |" << endl;
  }; //End of basic Layout for table (Header). 
-class test
+
+/*class test
 {
 	public:	
 
@@ -41,8 +42,7 @@ class test
  	}
 };
 
-/*class TestClass {
-  }*/
+*/
 int main()
 {
 
