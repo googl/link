@@ -26,11 +26,12 @@ int look_up(struct record table[],char s1[],char s2[],int m);
 char title[30], author[20];
 int  index, no_of_records;
 char response[10], quantity[10];
-struct record book[] =  {
+Books *inventory = new
+/* {
 {"Ritche","C Language",45.00,"May",1977,"PHI",10},
 {"Kochan","Programming in C",75.50,"July",1983,"Hayden",5},
 {"Balagurusamy","BASIC",30.00,"January",1984,"TMH",0},
-{"Balagurusamy","COBOL",60.00,"December",1988,"Macmillan",25}
+{"Balagurusamy","COBOL",60.00,"December",1988,"Macmillan",25}*/
                                       };
 
       no_of_records = sizeof(book)/ sizeof(struct record);
