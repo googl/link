@@ -46,7 +46,7 @@ void NotInStock(void)
 int main()
 {
 
-  TableLayout()
+  TableLayout();
 
 //  test test_obj;
 //  test_obj.search_data();
