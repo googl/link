@@ -26,8 +26,10 @@ void NotInStock(void)
  };
     
 
-void search_data()
+class search_data()
  {	
+ 	protected:
+ 	
 	char author_name[30];
 	char book_title[50];
 	
@@ -39,7 +41,6 @@ void search_data()
  
 int main()
 {
-		
 	TableLayout();	
 	search_data();
 
