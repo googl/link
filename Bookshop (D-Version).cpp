@@ -1,3 +1,4 @@
+//Copyright 2012 Dwayne Reid, Carey Riley
 #include <iostream>
 #include <string>
 #include <iomanip>
