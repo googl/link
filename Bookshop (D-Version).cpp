@@ -52,8 +52,17 @@ class test
   }
 	void setTitle(string book_title)
   {
-    book_title =  
+    book_title = "C++...Program"; 
   }
+  	int setCount(int stock_count)
+  {
+  	stock_count = 15;	
+  }
+  	float setUnitPrice(float unit_price)
+  	{
+		unit_price = 2500.00;  	
+ 	}
+  	
 
 };
 }
