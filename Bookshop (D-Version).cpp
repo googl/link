@@ -10,7 +10,7 @@ void NotInStock(void)
  	
  };  //End of function
  
- //Basic Layout for table.
+ //Basic Layout for table (Header).
  void TableLayout()
  { 	
  	cout << "| Author's Name|";
