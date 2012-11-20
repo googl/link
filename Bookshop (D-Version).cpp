@@ -98,7 +98,7 @@ int main()
   TableLayout();
 
   test test_obj;
-  search_data();
+  search_data(); // how do we use the variables in this now?
   cout << test_obj.get_author() << '\n';
 
     //system("pause");
