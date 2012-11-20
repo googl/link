@@ -41,6 +41,8 @@ int main()
 {
 		
 	TableLayout();	
+	search_data();
+
 	//system("pause");
 
 
