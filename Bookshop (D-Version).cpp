@@ -30,7 +30,7 @@ class test
 {
   public:
 
-  void search_data()
+	void search_data()
   {
     string author_name;
     string book_title;
@@ -40,6 +40,13 @@ class test
     cout <<"Enter Book Title: " << endl;
     getline(cin,book_title);
   }
+
+	void setName(string author_name)
+	{
+		author_name = "Deitel & Deitel";
+	}
+
+
 };
 }
 
