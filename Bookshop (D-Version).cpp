@@ -8,8 +8,9 @@ void NotInStock(void)
  {
  	cout << "Not in stock" << endl;
  	
- };
+ };  //End of function
  
+ //Basic Layout for table.
  void TableLayout()
  { 	
  	cout << "| Author's Name|";
