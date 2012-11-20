@@ -26,6 +26,7 @@ void NotInStock(void)
     cout << "| Stock Count  |" << endl;
  }; //End of basic Layout for table (Header).
 
+}
 class test
 {
   public:
@@ -66,9 +67,8 @@ class test
 
 
 };*/
+
 }
-
-
 int main()
 {
 
