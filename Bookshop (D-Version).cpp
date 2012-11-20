@@ -4,6 +4,7 @@
 using namespace std;
 
 // Prints stock shortage to screen
+// Put all global variables under namespace {
 namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
  {
