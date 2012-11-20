@@ -7,11 +7,7 @@ using namespace std;
 // Put all global variables under namespace {
 namespace {  // unnamed namespace make it true OOP
 
-void NotInStock(void)
- {
-  cout << "Not in stock" << endl;
-
- };  //End of function
+void NotInStock(void) { cout << "Not in stock" << endl;};
 
 //Basic Layout for table (Header).
 // setw(40) works better than \t
