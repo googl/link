@@ -3,7 +3,6 @@
 #include <iomanip>
 using namespace std;
 
-
 // Prints stock shortage to screen
 namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
@@ -12,8 +11,9 @@ void NotInStock(void)
 
  };  //End of function
 
- //Basic Layout for table (Header).
+//Basic Layout for table (Header).
 // setw(40) works better than \t
+
  void TableLayout()
  {
     cout << "|==========================================================================|" << '\n';
@@ -24,8 +24,7 @@ void NotInStock(void)
     cout << "| Unit Price   |";
     cout << "| Publisher    |";
     cout << "| Stock Count  |" << endl;
- };
- 
+ }; //End of basic Layout for table (Header). 
 class test
 {
 	public:	
