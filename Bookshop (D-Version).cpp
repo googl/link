@@ -66,6 +66,13 @@ class test
 
 */
 };
+
+  private:
+    string author_;
+    string title_;
+    double unitprice_;
+    string publisher_;
+    int quantity_;
 }
 
 
