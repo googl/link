@@ -51,7 +51,7 @@ int main()
 
   //system("pause");
 // to test variables
-cout
+cout << book_title << "by" << author_name;
 
   return 0;
 }
