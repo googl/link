@@ -82,7 +82,7 @@ class test
     double unitprice_;  // double larger than float
     string publisher_;
     int quantity_;
-}
+};
 
 
 int main()
@@ -91,7 +91,7 @@ int main()
   TableLayout();
 
   test test_obj;
-  test_obj.search_data();
+  search_data();
 
     //system("pause");
 // to test variables
