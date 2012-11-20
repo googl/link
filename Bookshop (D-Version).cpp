@@ -44,8 +44,8 @@ void search_data()
  }
 }
 
-class TestClass {
-  }
+/*class TestClass {
+  }*/
 int main()
 {
 
