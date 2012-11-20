@@ -44,7 +44,7 @@ class test
 	  cout <<"Enter Book Title: " << endl;
 	//  cin  >> book_title;
 	  getline(cin,book_title);
-	 }
+}	 }
 };
 
 /*class TestClass {
