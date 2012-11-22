@@ -81,7 +81,7 @@ class book
     {
     	book_title = B_tTemp;
     }
-    void SetBookPrice(string B_PTemp)
+    void SetBookPrice(float B_PTemp)
     {
     	Book_Price = B_PTemp;
     }
