@@ -1,4 +1,4 @@
-//(c) Dwayne Reid
+//(c) Dwayne Reid && Carey Riley
 
 #include <iostream>	/*Header Files*/
 #include <string>	/*Header Files*/
