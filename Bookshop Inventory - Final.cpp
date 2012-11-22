@@ -102,19 +102,15 @@ void newrecord (void)
 	cout<<"Please enter the Author's Name."<<endl;
 	cin>>A_NTemp;
 	book::SetAuthorName(A_NTemp);
-	
-	
+		
 }
-
 
 /*------------------------------------------------------------------*/
 
 //Start of main function
 int main()
 {
-	int switchtrig;
-	
-	
+	int switchtrig;	
 	
 	cout<<"---!Welcome to the Coursework #2 Bookshop Inventory Program!---"<<endl;
 	cout<<"-------------------------------------------------------------"<<endl;
@@ -140,13 +136,8 @@ int main()
 	}
 	
 	
-	
-	
-	
-	
 
   TableLayout(); //Runs Table Layout function (Header)
-
  
   
   search_data(); //Runs Search function (input from user)
