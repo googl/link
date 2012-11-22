@@ -1,8 +1,8 @@
 //(c) Dwayne Reid && Carey Riley
 
-#include <iostream>	/*Header Files*/
-#include <string>	/*Header Files*/
-#include <iomanip>	/*Header Files*/
+#include <iostream> /*Header Files*/
+#include <string> /*Header Files*/
+#include <iomanip>  /*Header Files*/
 using namespace std;
 
 /*------------------------------------------------------------------*/
@@ -11,10 +11,10 @@ using namespace std;
 namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
  {
-  cout << "Required copies not in stock" << endl;
+  cerr << "Required copies not in stock" << endl;
 
  };  //End of function
- 
+
 /*------------------------------------------------------------------*/
 
 //Basic Layout for table (Header).
@@ -24,8 +24,8 @@ void NotInStock(void)
  {
     cout << "|==========================================================================|" << '\n';
     cout << '|' << setw(40) << "Bookshop Inventory" << setw(35) << '|' << '\n';  // use endl to push to screen
-	cout << "|==========================================================================|" << endl;
-	cout << "| Author's Name|";
+  cout << "|==========================================================================|" << endl;
+  cout << "| Author's Name|";
     cout << "| Book Title   |";
     cout << "| Unit Price   |";
     cout << "| Publisher    |";
@@ -52,7 +52,7 @@ void NotInStock(void)
 
 class test
 {
-	public:
+  public:
     string get_author(void)    { return author_;    }
     string get_title(void)     { return title_;     }
     double get_unitprice(void) { return unitprice_; }
@@ -66,7 +66,7 @@ class test
            quantity_(15)
            {}
 
-	private:
+  private:
     string author_;
     string title_;
     double unitprice_;  // double larger than float
@@ -83,13 +83,13 @@ int main()
   TableLayout(); //Runs Table Layout function (Header)
 
   test test_obj; //Object for test function
-  
+
   search_data(); //Runs Search function (input from user)
   cout << test_obj.get_author() << '\n';
 
     //system("pause");
-	// to test variables
-	//cout << book_title << "by" << author_name;
+  // to test variables
+  //cout << book_title << "by" << author_name;
 
   return 0;
 }
