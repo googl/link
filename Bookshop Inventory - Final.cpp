@@ -76,6 +76,11 @@ class test
 
 /*------------------------------------------------------------------*/
 
+class book: public test
+{
+		
+};
+
 //Start of main function
 int main()
 {
