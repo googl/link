@@ -39,7 +39,7 @@ by Mrs. Robinson
 | SaleDate | Sale Date | Date Time | Required |
 | SaleTotal | Sale Total | Money | Required |
 
-+ TABLE NAME:  +
++ TABLE NAME: SALES DETAIL  +
 || FIELD NAME | DESCRIPTION | FIELD TYPE/SIZE | ATTRIBUTES |
 | SaleId | Sale ID | Int | Required(Foreign key for sale table) |
 | ProductId | Product ID | int | Required (Foreign key for Sales Table) |
