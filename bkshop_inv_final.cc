@@ -11,7 +11,7 @@ using namespace std;
 namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
  {
-  cout << "Required copies not in stock" << endl;
+  cerr << "Required copies not in stock" << '\n';
 
  };  //End of function
  
