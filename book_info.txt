@@ -1,3 +1,4 @@
 { "Deitel & Deitel",}
 { "Pearson", }
 { "C++...Program",}
+{ "1500.00",
