@@ -14,7 +14,7 @@ int main()
 	cout << "Please enter your name: " << endl;
 	cin >> Temp_Name;
 	
-	if(name == AuthorName)
+	if(Temp_Name == AuthorName)
 	cout <<"You entered: " << Temp_Name << endl;
 	
 	else 
