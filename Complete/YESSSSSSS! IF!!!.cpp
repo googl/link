@@ -12,7 +12,7 @@ int main()
 	
 	
 	cout <<"Please enter the author's name: " << endl;
-	cin  >>Temp_Name, Temp_Book;
+	cin  >>Temp_Name;
 
 	cout <<"Please enter the title of book: " << endl;
 	cin  >> Temp_Book;
