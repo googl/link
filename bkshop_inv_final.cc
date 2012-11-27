@@ -15,6 +15,7 @@ void NotInStock(void)
 
  };  //End of function
  
+void NotAvailable(void) { cerr << "Unavailable book" << '\n';
 /*------------------------------------------------------------------*/
 
 //Basic Layout for table (Header).
