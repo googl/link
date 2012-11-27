@@ -77,9 +77,8 @@ int main()
   search_data(); //Runs Search function (input from user)
   cout << test_obj.get_author() << '\n';
 
-	system("pause");
 	// to test variables
-	cout << test_obj.get_title() << "by" << test_obj.get_author();
+	cout << test_obj.get_title() << "by" << test_obj.get_author() << endl;
 
   return 0;
 }
