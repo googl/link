@@ -1,1 +1,3 @@
-{ "Deitel & Deitel",
+{ "Deitel & Deitel",}
+{ "Pearson, }
+{ "C++...Program",
