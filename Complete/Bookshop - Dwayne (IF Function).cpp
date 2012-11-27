@@ -9,7 +9,7 @@ using namespace std;
 void if_function()
 {
 	string Temp_Name, AuthorName = "Deitel & Deitel";
-//	string Temp_Book, AutherBook = "C++...Program";
+	string Temp_Book, AutherBook = "C++...Program";
 
 //	string Temp_Name, AuthorName = "Dwayne";
 //	string Temp_Book, AutherBook = "Home";
