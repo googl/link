@@ -8,11 +8,11 @@ using namespace std;
 
 void if_function()
 {
-//	string Temp_Name, AuthorName = "Deitel & Deitel";
+	string Temp_Name, AuthorName = "Deitel & Deitel";
 //	string Temp_Book, AutherBook = "C++...Program";
 
-	string Temp_Name, AuthorName = "Dwayne";
-	string Temp_Book, AutherBook = "Home";
+//	string Temp_Name, AuthorName = "Dwayne";
+//	string Temp_Book, AutherBook = "Home";
 
 	cout <<"Please enter the author's name: " << endl;
     getline(cin,Temp_Name);
