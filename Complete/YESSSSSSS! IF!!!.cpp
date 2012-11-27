@@ -18,9 +18,9 @@ int main()
 	cout <<"Please enter the title of the book: " << endl;
 	cin >> Temp_Book;
 	
-	if(Temp_Name == AuthorName)
+	if(Temp_Name == AuthorName & Temp_Book == A_Book)
 	
-	cout <<"You entered: " << Temp_Name  << endl;
+	cout <<"You entered: " << Temp_Name, Temp_Book << endl;
 	
 	else 
 	cout <<"Copies not in stock!" << endl;
