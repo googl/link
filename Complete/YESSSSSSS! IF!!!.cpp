@@ -18,7 +18,7 @@ int main()
 	cout <<"Please enter the title of the book: " << endl;
 	cin >> Temp_Book;
 	
-	if(Temp_Name == AuthorName & Temp_Book == A_Book)
+	if(Temp_Name == AuthorName) & (Temp_Book == A_Book)
 	
 	cout <<"You've entered: " << Temp_Name << Temp_Book << endl;
 	
