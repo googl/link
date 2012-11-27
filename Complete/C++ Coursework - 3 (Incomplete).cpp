@@ -70,16 +70,16 @@ class test
 int main()
 {
 
-  TableLayout(); //Runs Table Layout function (Header)
+	TableLayout(); //Runs Table Layout function (Header)
 
-  test test_obj; //Object for test function
+	test test_obj; //Object for test function
   
-  search_data(); //Runs Search function (input from user)
-  cout << test_obj.get_author() << '\n';
+	search_data(); //Runs Search function (input from user)
+	cout << test_obj.get_author() << '\n';
 
 	// to test variables
 	cout << test_obj.get_title() << "by" << test_obj.get_author() << endl;
 
-  return 0;
+	return 0;
 }
 //End of program
