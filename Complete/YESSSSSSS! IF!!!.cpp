@@ -9,7 +9,7 @@ int main()
 	string Temp_Name;
 	string AuthorName = "Deitel & Deitel";
 	string Temp_Book;
-	string Book = "C++...Program";
+	string A_Book = "C++...Program";
 	
 	
 	cout <<"Please enter the author's name: " << endl;
@@ -18,7 +18,7 @@ int main()
 	cout <<"Please enter the title of the book: " << endl;
 	cin >> Temp_Book;
 	
-	if(Temp_Name == AuthorName & Temp_Book == Book)
+	if(Temp_Name == AuthorName & Temp_Book == A_Book)
 	
 	cout <<"You entered: " << Temp_Name Temp_Book << endl;
 	
