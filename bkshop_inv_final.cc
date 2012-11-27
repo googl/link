@@ -14,7 +14,7 @@ void NotInStock(void)
   cerr << "Required copies not in stock" << '\n';
 
  };  //End of function
- 
+// Response for book not available 
 void NotAvailable(void) { cerr << "Unavailable book" << '\n';
 /*------------------------------------------------------------------*/
 
