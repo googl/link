@@ -1,0 +1,17 @@
+Question:
+  The List
+    Author's name
+    Book Title
+    Price of book
+    Book publisher
+    How much in stock
+
+  + Presentation is tabular
+
+Customer query:
+ 1. customer asks for book 
+ 2. book title and author is input to search.
+ 3. results of list search shows if book is there or not, and how much.
+    if book is in list, total cost of customer request is displayed.
+    else display "Required copies not in stock"
+ 
