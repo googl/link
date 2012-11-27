@@ -79,7 +79,7 @@ int main()
 
 	system("pause");
 	// to test variables
-	cout << book_title << "by" << author_name;
+	cout << test_obj.title_ << "by" << test_obj.author_;
 
   return 0;
 }
