@@ -20,7 +20,7 @@ int main()
 	
 	if(Temp_Name == AuthorName)
 	
-	cout <<"You entered: " << Temp_Name endl;
+	cout <<"You entered: " << Temp_Name  << endl;
 	
 	else 
 	cout <<"Copies not in stock!" << endl;
