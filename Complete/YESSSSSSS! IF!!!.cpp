@@ -12,10 +12,10 @@ int main()
 	
 	
 	cout <<"Please enter the author's name: " << endl;
-	cin >> Temp_Name;
+	cin  >>Temp_Name;
 	
 	cout <<"Please enter the title of the book: " << endl;
-	cin >> Temp_Book;
+	cin  >>Temp_Book;
 	
 	if(Temp_Name == AuthorName && Temp_Book == A_Book)
 	
