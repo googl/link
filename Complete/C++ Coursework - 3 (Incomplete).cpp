@@ -5,6 +5,8 @@
 #include <iomanip>
 using namespace std;
 
+/****************************************************************************/
+
 // Prints stock shortage to screen
 namespace {  // unnamed namespace make it true OOP
 void NotInStock(void)
@@ -28,6 +30,8 @@ void NotInStock(void)
     cout << "| Stock Count  |" << endl;
  }; //End of basic Layout for table (Header).
 
+/****************************************************************************/
+
  void search_data() //Start of Search function (input from user)
   {
     string author_name;
@@ -41,6 +45,8 @@ void NotInStock(void)
 //Need to make a relational comparison between user's input and variables in database
 };
 }
+
+/****************************************************************************/
 
 class test
 {
@@ -66,6 +72,16 @@ class test
     int quantity_;
 }; //End of test class
 
+/****************************************************************************/
+
+void if_fuction()
+{
+	if (test_obj.get_author() == author_name)
+}
+
+
+
+
 //Start of main function
 int main()
 {
@@ -73,7 +89,7 @@ int main()
 	TableLayout(); //Runs Table Layout function (Header)
 
 	test test_obj; //Object for test function
-  
+  	
 	search_data(); //Runs Search function (input from user)
 	cout << test_obj.get_author() << '\n';
 
@@ -83,3 +99,4 @@ int main()
 	return 0;
 }
 //End of program
+/****************************************************************************/
