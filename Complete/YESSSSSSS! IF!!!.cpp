@@ -1,3 +1,5 @@
+/*(C) Dwayne Reid */
+
 #include<iostream>
 #include<string>
 
@@ -9,10 +11,10 @@ int main()
 	string Temp_Book, Auther_Book = "C++...Program";
 	
 	
-	cout <<"Please enter the author's name and title of book: " << endl;
+	cout <<"Please enter the author's name: " << endl;
 	cin  >>Temp_Name, Temp_Book;
 
-	cout <<"Please enter the  title of book: " << endl;
+	cout <<"Please enter the title of book: " << endl;
 	cin  >> Temp_Book;
 
 	
