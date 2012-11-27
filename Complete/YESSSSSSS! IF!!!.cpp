@@ -6,18 +6,19 @@ using namespace std;
 
 int main()
 {
-	string name;
-	string MyName = "Dwayne";
+	string Temp_Name;
+	string AuthorName = "Deitel & Deitel";
+	string book = "C++...Program";
 	
 	
 	cout << "Please enter your name: " << endl;
-	cin >> name;
+	cin >> Temp_Name;
 	
-	if(name == MyName)
-	cout <<"You entered: " << name << endl;
+	if(name == AuthorName)
+	cout <<"You entered: " << Temp_Name << endl;
 	
 	else 
-	cout <<"That is not your name!" << endl;
+	cout <<"Copies not in stock!" << endl;
 	
 	return 0;
 }
