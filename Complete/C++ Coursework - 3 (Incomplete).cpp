@@ -74,14 +74,6 @@ class test
 
 /****************************************************************************/
 
-void if_fuction()
-{
-	if (test_obj.get_author() == author_name)
-}
-
-
-
-
 //Start of main function
 int main()
 {
