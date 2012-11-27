@@ -43,7 +43,7 @@ void NotInStock(void)
     getline(cin,book_title);
 
 //Need to make a relational comparison between user's input and variables in database
-};
+}
 }
 
 /****************************************************************************/
@@ -74,6 +74,30 @@ class test
 
 /****************************************************************************/
 
+void if_function()
+{
+//	string Temp_Name, AuthorName = "Deitel & Deitel";
+//	string Temp_Book, AutherBook = "C++...Program";
+
+	string Temp_Name, AuthorName = "Dwayne";
+	string Temp_Book, AutherBook = "Home";
+
+	cout <<"Please enter the author's name: " << endl;
+    getline(cin,Temp_Name);
+
+	cout <<"Please enter the title of book: " << endl;
+    getline(cin,Temp_Book);
+	
+	if(Temp_Name == AuthorName && Temp_Book == AutherBook)
+	cout << "You entered: " << AuthorName << " and " << AutherBook << endl;
+	
+	else
+	
+	NotInStock();	
+}
+
+/****************************************************************************/
+
 //Start of main function
 int main()
 {
@@ -81,14 +105,15 @@ int main()
 	TableLayout(); //Runs Table Layout function (Header)
 
 	test test_obj; //Object for test function
-  	
+	  
 	search_data(); //Runs Search function (input from user)
 	cout << test_obj.get_author() << '\n';
+	
+	if_function();
 
 	// to test variables
-	cout << test_obj.get_title() << "by" << test_obj.get_author() << endl;
+	// cout << test_obj.get_title() << "by" << test_obj.get_author() << endl;
 
 	return 0;
 }
 //End of program
-/****************************************************************************/

@@ -44,7 +44,7 @@ void if_function()
     cout << "| Book Title  |";
     cout << "| Unit Price  |";
     cout << "| Publisher   |";
-    cout << "| Stock Count |" << endl << endl;
+    cout << "| Stock Count |\n";
     cout << "|--------------------------------------------------------------------------|\n" << endl;
  }; //End of basic Layout for table (Header).
 

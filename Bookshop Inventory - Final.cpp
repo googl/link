@@ -94,16 +94,7 @@ class book
 		Stock_Count = S_Temp;
 	}
 };
-void newrecord (void)
-{
-	string A_NTemp;
-	
-		
-	cout<<"Please enter the Author's Name."<<endl;
-	cin>>A_NTemp;
-	book::SetAuthorName(A_NTemp);
-		
-}
+
 
 /*------------------------------------------------------------------*/
 
