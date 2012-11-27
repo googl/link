@@ -18,7 +18,7 @@ int main()
 	cin  >> Temp_Book;
 	
 	if(Temp_Name == AuthorName && Temp_Book == AutherBook)
-	cout << "You entered " << AuthorName << endl;
+	cout << "You entered " << AuthorName << "and " << AutherBook endl;
 
 	
 	return 0;
