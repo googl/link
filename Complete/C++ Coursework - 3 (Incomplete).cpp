@@ -31,9 +31,6 @@ void NotInStock(void)
  }; //End of basic Layout for table (Header).
 
 /****************************************************************************/
-class searchClass
-{
-	public:	
 
  void search_data() //Start of Search function (input from user)
   {
@@ -48,7 +45,7 @@ class searchClass
 //Need to make a relational comparison between user's input and variables in database
 };
 }
-};
+
 /****************************************************************************/
 
 class test
@@ -79,7 +76,7 @@ class test
 
 void if_fuction()
 {
-	if (test_obj.get_author() == searchClass.search_data())
+	if (test_obj.get_author() == author_name)
 }
 
 
@@ -92,8 +89,6 @@ int main()
 	TableLayout(); //Runs Table Layout function (Header)
 
 	test test_obj; //Object for test function
-	
-	searchClass search_obj;
   	
 	search_data(); //Runs Search function (input from user)
 	cout << test_obj.get_author() << '\n';
