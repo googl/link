@@ -15,3 +15,10 @@ Customer query:
     a) if book is in list, total cost of customer request is displayed.
     b) else display "Required copies not in stock"
  
+Structure of list:
+ Table structure and responses have been coded, viz "Book unavailable"
+and "Required copies not in stock".
+
+- Design a class called books
+- Use new operator in constructors to create arrays; objects by main
+- should have access to appropriate functions.
