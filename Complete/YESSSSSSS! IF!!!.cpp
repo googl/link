@@ -20,7 +20,7 @@ int main()
 	
 	if(Temp_Name == AuthorName & Temp_Book == A_Book)
 	
-	cout <<"You entered: " << Temp_Name Temp_Book << endl;
+	cout <<"You entered: " << Temp_Name "&" Temp_Book << endl;
 	
 	else 
 	cout <<"Copies not in stock!" << endl;
