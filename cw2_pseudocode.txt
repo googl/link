@@ -22,3 +22,10 @@ and "Required copies not in stock".
 - Design a class called books
 - Use new operator in constructors to create arrays; objects by main
 - should have access to appropriate functions.
+
+Algorithm
+========
+1. start
+2. input title and author
+3. 
+
