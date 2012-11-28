@@ -21,4 +21,5 @@ class Person {
 
 class Student:
   public Person {
-    s
+    std::string StudentId;
+    doubl
