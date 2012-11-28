@@ -25,4 +25,5 @@ class Student:
     double feespaid;
   };
 
-class Course
+class Course {
+  std::
