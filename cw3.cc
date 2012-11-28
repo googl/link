@@ -7,6 +7,6 @@ class Person:
     std::string Firstname;
     std::string Lastname;
     class Date {
-    int day;
-    int month;
-    int year;
+      int day;
+      int month;
+    int year;}
