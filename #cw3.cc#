@@ -25,4 +25,4 @@ class Student:
     double feespaid;
   };
 
-class
+class Course
