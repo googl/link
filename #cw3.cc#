@@ -6,3 +6,4 @@ class Person:
   public:
     std::string Firstname;
     std::string Lastname;
+    
