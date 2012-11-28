@@ -38,4 +38,4 @@ class Course {
   static double cost_per_credit_;
 };
 
-int main
+int main()
