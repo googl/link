@@ -27,7 +27,7 @@ class Person {
 
 class Student:
   public Person {
-    std::string studentId_;
+    std::string studentid_;
     double feespaid_;
   };
 
