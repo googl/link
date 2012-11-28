@@ -26,7 +26,7 @@ class Student:
   };
 
 class Course {
-  std::string coursename;
+  std::string coursename_;
   std::string coursecode_;
   int number_of_credits_;
   static double cost_per_credit_;
