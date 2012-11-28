@@ -16,4 +16,5 @@ class Person:
       int year_;
     };
     std::string Address_;
+    std::string Telephone;
     
