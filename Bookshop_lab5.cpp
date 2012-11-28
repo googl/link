@@ -131,7 +131,7 @@ int main() {
 	books newCostomer;
 	while ( true ) {
 
-		cout << "Please enter Author's Name:";
+		cout << "Please enter Author's Name:" << endl;
 		cin >> author;
 		if ( author == "exit" ) break;
 		cout << "Please Enter Book Title:";
