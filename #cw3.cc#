@@ -8,7 +8,7 @@ namespace {
   {s};
 }
 // Variables ending with '_' are members of a class.
-// P
+// Person class
 class Person {
   public:
     
@@ -25,7 +25,7 @@ class Person {
     std::string address_;
     std::string telephone_;
 };
-
+// In
 class Student:
   public Person {
     std::string studentid_;
