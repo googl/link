@@ -22,7 +22,7 @@ class Person {
       int year_;
     };
     std::string address_;
-    std::string telephone;
+    std::string telephone_;
 };
 
 class Student:
