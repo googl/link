@@ -4,4 +4,4 @@
 
 class Person:
   public:
-    Firstname
+    std::string 
