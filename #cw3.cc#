@@ -19,4 +19,5 @@ class Person {
     std::string Telephone;
 };
 
-clas
+class Student:
+  public Person: 
