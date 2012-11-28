@@ -28,4 +28,5 @@ class Student:
 class Course {
   std::string coursename;
   std::string coursecode_;
-  int number_of_credits_
+  int number_of_credits_;
+  static double
