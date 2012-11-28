@@ -17,3 +17,9 @@ by an amount specified in parameter.
     Coursename, Coursecode, Number of credits, static Cost per Credit.
 
 calculatestotalfees details
+    calculate fees for a student by adding cost of each taken course.
+    cost of each course = number of credits of each course * cost per credit
+
+4.  main() {}
+      10 student objects, 15 course objects.
+      use a loop to call show function of each student object.
