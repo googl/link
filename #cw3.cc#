@@ -3,7 +3,7 @@
 #include <string>
 
 namespace {
-  double calculatetotalfees(int credit,
+  double calculatetotalfees(int credits, double Cost 
 }
 // Variables ending with '_' are members of a class.
 class Person {
