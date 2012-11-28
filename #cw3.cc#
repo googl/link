@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 
-namespace
+namespace {
+
+}
 // Variables ending with '_' are members of a class.
 class Person {
   public:
