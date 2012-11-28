@@ -4,4 +4,9 @@
 
 class Person:
   public:
-    
+    std::string Firstname;
+    std::string Lastname;
+    Date(int, int, int) :
+      day(1),
+      month(1),
+      year(1970) {}
