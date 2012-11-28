@@ -1,0 +1,7 @@
+1.  class Person:
+      members: Firstname, Lastname, Date of Birth(date class from cw1),
+               Address, Telephone Number, + virtual show function
+
+2.  class Student:
+      public Person:
+        members: StudentId, feespaid, Courses(Array object of class Course
