@@ -1,3 +1,4 @@
+// template for insenstive case casting
 struct ci_char_traits : public char_traits<char>
                 // just inherit all the other functions
                 //  that we don't need to override
