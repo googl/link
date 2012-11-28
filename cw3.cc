@@ -8,19 +8,23 @@ class Person {
     
     
   private:
-    std::string Firstname_;
-    std::string Lastname_;
+    std::string firstname_;
+    std::string lastname_;
     class Date {
       int day_;
       int month_;
       int year_;
     };
-    std::string Address_;
-    std::string Telephone;
+    std::string address_;
+    std::string telephone;
 };
 
 class Student:
   public Person {
     std::string StudentId;
     double feespaid;
-    
+  };
+
+class Course {
+  std::string coursename;
+  std::string 
