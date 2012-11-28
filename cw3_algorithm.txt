@@ -23,3 +23,5 @@ calculatestotalfees details
 4.  main() {}
       10 student objects, 15 course objects.
       use a loop to call show function of each student object.
+
+Possible to draw student data from a file.
