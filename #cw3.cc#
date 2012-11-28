@@ -8,8 +8,8 @@ class Person {
     
     
   private:
-    std::string Firstname_;
-    std::string Lastname_;
+    std::string firstname_;
+    std::string lastname_;
     class Date {
       int day_;
       int month_;
