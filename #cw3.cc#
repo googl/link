@@ -27,4 +27,4 @@ class Student:
 
 class Course {
   std::string Coursename;
-  std::
+  std::string
