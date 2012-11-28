@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-// Variables ending with '_
+// Variables ending with '_' are
 class Person {
   public:
     
