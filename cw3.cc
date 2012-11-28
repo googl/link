@@ -18,3 +18,9 @@ class Person {
     std::string Address_;
     std::string Telephone;
 };
+
+class Student:
+  public Person {
+    std::string StudentId;
+    double feespaid;
+    
