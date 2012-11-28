@@ -125,7 +125,7 @@ void books::updateStock(string parAuthor, string parTitle, int parReduceNumber) 
 int main() {
 
 	TableLayout(); //Runs Table Layout function (Header)
-	cout <<"## Enter /"exit/" to end program ##" << endl;
+	cout <<"## Enter (exit) to end program ##" << endl;
 	string author;
 	string title;
 	books newCostomer;
