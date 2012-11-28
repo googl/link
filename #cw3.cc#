@@ -22,4 +22,4 @@ class Person {
 class Student:
   public Person {
     std::string StudentId;
-    double
+    double feespaid
