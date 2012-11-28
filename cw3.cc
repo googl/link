@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-class Person:
+class Person {
   public:
     
     
@@ -17,4 +17,4 @@ class Person:
     };
     std::string Address_;
     std::string Telephone;
-    
+};
