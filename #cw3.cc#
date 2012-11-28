@@ -20,4 +20,5 @@ class Person {
 };
 
 class Student:
-  public Person: 
+  public Person {
+    
