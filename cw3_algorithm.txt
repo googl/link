@@ -4,4 +4,16 @@
 
 2.  class Student:
       public Person:
-        members: StudentId, feespaid, Courses(Array object of class Course
+        members: StudentId, feespaid, Courses(Array object of class Course;
+                 3 courses >= student registers <= 6 courses
+
+Virtual show program details
+  call calculatetotalfees(output total fees, total fees paid, amount due)
+
+Overload + operator within class Student so feespaid variable is increased
+by an amount specified in parameter.
+
+3. class Course:
+    Coursename, Coursecode, Number of credits, static Cost per Credit.
+
+calculatestotalfees details
