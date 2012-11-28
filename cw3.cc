@@ -8,9 +8,12 @@ class Person:
     
     
   private:
-    std::string Firstname;
-    std::string Lastname;
+    std::string Firstname_;
+    std::string Lastname_;
     class Date {
-      int day;
-      int month;
-      int year;}
+      int day_;
+      int month_;
+      int year_;
+    };
+    std::string Address_;
+    
