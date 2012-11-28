@@ -22,9 +22,11 @@ class Person {
 class Student:
   public Person {
     std::string studentId_;
-    double feespaid;
+    double feespaid_;
   };
 
 class Course {
   std::string coursename;
-  std::string 
+  std::string coursecode_;
+  int number_of_credits_;
+  static double cost_per_credit_;
