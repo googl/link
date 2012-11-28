@@ -37,3 +37,8 @@ class Course {
   int number_of_credits_;
   static double cost_per_credit_;
 };
+
+int main() {
+  
+  return 0;
+}
