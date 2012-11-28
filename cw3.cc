@@ -4,6 +4,10 @@
 
 class Person:
   public:
+    
+    
+    
+  private:
     std::string Firstname;
     std::string Lastname;
     class Date {
