@@ -9,4 +9,4 @@ class Person:
     Date(int, int, int) :
       day(1),
       month(1),
-      kyear(1970) {}
+      year(1970) {}
