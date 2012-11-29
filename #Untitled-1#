@@ -1,3 +1,6 @@
 Question
 Create a person class that contains Firstname, Lastname and Date of Birth (use
-the date class from Coursework 1)
+the date class from Coursework 1), Address and Telephone Number, along with a
+virtual show function.
+
+Create a Student class that inherits from the Person Class and adds S
