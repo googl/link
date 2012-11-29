@@ -1,7 +1,7 @@
 // Copyright 2012, Carey Riley, Dwayne Reid, <who else?>
 #include <iostream>
 #include <string>
-#include<ifstream>
+#include<fstream>
 
 namespace {
    *calculatetotalfees(int credits, double cost_per_credit, double paid)
