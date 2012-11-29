@@ -27,6 +27,9 @@ class Person {
 class Student: public Person {
     std::string studentid_;
     double feespaid_;
+
+  public:
+    feespaid+= operator + (paid);
   };
 // Course class
 class Course {
