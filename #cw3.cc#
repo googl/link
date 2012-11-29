@@ -36,6 +36,6 @@ class Course {
 };
 
 int main() {
-  new
+  *Student_
 return 0;
 }
