@@ -29,7 +29,7 @@ class Student: public Person {
     double feespaid_;
 
   public:
-    feespaid operator 
+    feespaid+= operator + (inc
   };
 // Course class
 class Course {
