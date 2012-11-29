@@ -5,7 +5,7 @@
 
 namespace {
   inline *calculatetotalfees(int credits, double cost_per_credit, double paid)
-  {s};
+  {s}
 }
 // Variables ending with '_' are members of a class.
 // Person class
