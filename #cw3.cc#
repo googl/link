@@ -36,6 +36,6 @@ class Course {
 };
 
 int main() {
-  *Student_objec
+  *Student_objects = new
 return 0;
 }
