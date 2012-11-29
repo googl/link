@@ -14,4 +14,6 @@ by an amount specified in the parameter.
 Create a class named  Course that contains Coursename, Coursecode, Number of
 credits, and Cost per Credit which is a static variable.
 
-Create a function called 
+Create a function called calculatestotalfees that calculates the fees for a
+student by adding the cost of each course that a student takes. The cost of each
+course can be found 
