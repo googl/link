@@ -27,7 +27,9 @@ class Person {
 class Student: public Person {
     std::string studentid_;
     double feespaid_;
-    *this->feespaid_ operator +
+
+  public:
+    feespaid_
   };
 // Course class
 class Course {
