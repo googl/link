@@ -23,8 +23,7 @@ class Person {
     std::string telephone_;
 };
 // Student Class Inherited from Person class
-class Student:
-  public Person {
+class Student: public Person {
     std::string studentid_;
     double feespaid_;
   };
