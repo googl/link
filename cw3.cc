@@ -21,6 +21,7 @@ class Person {
     };
     std::string address_;
     std::string telephone_;
+    virtual void show();
 };
 // Student Class Inherited from Person class
 class Student: public Person {
@@ -36,7 +37,7 @@ class Course {
 };
 
 int main() {
-  Student* student_objects(new[10] Student);  // 10 student objects
-  Course* course_objects(new[15] Course);   // 15 course objects
+  Student* student_objects(new Student[10]);  // 10 student objects
+  Course* course_objects(new Course[15]);     // 15 course objects
 return 0;
 }
