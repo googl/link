@@ -27,12 +27,12 @@ class Person {
 // Student Class Inherited from Person class
 class Student: public Person {
     std::string studentid_;
-    double feespaid_;
+    int feespaid_;
 
   public:
 // overload operator to increase feespaid by amount specified
 // in parameter
-   :: feespaid() {feespaid operator + paid;}
+    feespaid(int paid) {feespaid_  = feespaid_ std::operator+ paid;}
   };
 // Course class
 class Course {
