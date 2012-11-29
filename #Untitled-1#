@@ -19,4 +19,5 @@ student by adding the cost of each course that a student takes. The cost of each
 course can be found by multiplying the number of credits of each course by the
 cost per credit.
 
-Create a main that creates 10 stude
+Create a main that creates 10 student objects as well as 15 course objects. The
+software should use a loop to call the show function of each student object.
