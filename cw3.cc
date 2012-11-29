@@ -4,7 +4,7 @@
 #include<fstream>
 
 namespace {
-   *calculatetotalfees(int credits, double cost_per_credit, double paid)
+  *calculatetotalfees(int credits, double cost_per_credit, double paid)
   {s};
 }
 // Variables ending with '_' are members of a class.
