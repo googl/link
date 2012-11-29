@@ -3,4 +3,6 @@ Create a person class that contains Firstname, Lastname and Date of Birth (use
 the date class from Coursework 1), Address and Telephone Number, along with a
 virtual show function.
 
-Create a Student class that inherits from the Person Class and adds S
+Create a Student class that inherits from the Person Class and adds StudentId,
+feespaid and Courses(this is an Array object of the Course class, A student can
+register for a maximum of 
