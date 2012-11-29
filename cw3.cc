@@ -36,7 +36,7 @@ class Course {
 };
 
 int main() {
-  Student* Student_objects = new[] Student;  // 10 student objects
-  Course* Course_objects   = new[] Course;   // 15 course objects
+  Student* Student_objects[10] = new[] Student;  // 10 student objects
+  Course* Course_objects[15]   = new[] Course;   // 15 course objects
 return 0;
 }
