@@ -16,4 +16,7 @@ credits, and Cost per Credit which is a static variable.
 
 Create a function called calculatestotalfees that calculates the fees for a
 student by adding the cost of each course that a student takes. The cost of each
-course can be found 
+course can be found by multiplying the number of credits of each course by the
+cost per credit.
+
+Create a main that creates 10 stude
