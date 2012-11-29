@@ -29,6 +29,8 @@ class Student: public Person {
     double feespaid_;
 
   public:
+// overload operator to increase feespaid by amount specified
+// in parameter
     feespaid+= operator + (paid);
   };
 // Course class
