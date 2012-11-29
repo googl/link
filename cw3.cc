@@ -10,10 +10,7 @@ namespace {
 // Variables ending with '_' are members of a class.
 // Person class
 class Person {
-  public:
-    
-    
-    
+//  public:
   private:
     std::string firstname_;
     std::string lastname_;
