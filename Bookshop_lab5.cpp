@@ -42,7 +42,7 @@ void books::searchBook(string parAuthor, string parTitle) {
 	}
 	reader.close();
 	if ( isFound ) {
-		cout << "The Book is Found" << endl;
+		cout << "The Book was Found" << endl;
 		cout << "Author: " << stAuthor << endl;
 		cout << "Title: " << stTitle << endl;
 		cout << "Price: " << iPrice << endl;
@@ -61,7 +61,7 @@ void books::searchBook(string parAuthor, string parTitle) {
 		}
 	}	
 	else {
-		cout << "Sorry The Book is not found." << endl;
+		cout << "Required copies not in stock. \n" << endl;
 		books::numberOfUnSuccessfulTransaction ++;
 	}
 }
@@ -125,16 +125,16 @@ void books::updateStock(string parAuthor, string parTitle, int parReduceNumber) 
 int main() {
 
 	TableLayout(); //Runs Table Layout function (Header)
-	cout <<"## Enter (exit) to end program ##" << endl;
+	cout <<"Enter (exit) to end program\n" << endl;
 	string author;
 	string title;
 	books newCostomer;
 	while ( true ) {
 
-		cout << "Please enter Author's Name:" << endl;
+		cout << "Please enter Author's Name: \n";
 		cin >> author;
 		if ( author == "exit" ) break;
-		cout << "Please Enter Book Title:";
+		cout << "Please Enter Book Title:" << endl;
 		cin >> title;
 		newCostomer.searchBook(author, title);
 	}
