@@ -32,7 +32,7 @@ class Student: public Person {
   public:
 // overload operator to increase feespaid by amount specified
 // in parameter
-    feespaid(double paid) {feespaid operator + paid;}
+    feespaid(double paid) {feespaid_feespaid operator + paid;}
   };
 // Course class
 class Course {
