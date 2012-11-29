@@ -12,7 +12,7 @@ namespace {
 // Person class
 class Person {
 //  public:
-  private:
+  protected:
     std::string firstname_;
     std::string lastname_;
     class Date {
