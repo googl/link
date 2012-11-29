@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include<fstream>
+using namespace std;
 
 namespace {
 //  inline *calculatetotalfees(int credits, double cost_per_credit, double paid)
@@ -32,7 +33,7 @@ class Student: public Person {
   public:
 // overload operator to increase feespaid by amount specified
 // in parameter
-    feespaid(int paid) {feespaid_  = feespaid_ std::operator+ paid;}
+    feespaid(int paid) {feespaid_  = feespaid_ operator+ paid;}
   };
 // Course class
 class Course {
