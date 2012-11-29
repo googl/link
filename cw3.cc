@@ -21,6 +21,7 @@ class Person {
     };
     std::string address_;
     std::string telephone_;
+// virtual show program should call calculatetotalfees
     virtual void show();
 };
 // Student Class Inherited from Person class
