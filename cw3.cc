@@ -12,7 +12,7 @@ namespace {
 // Person class
 class Person {
 //  public:
-  protected:
+  private:
     std::string firstname_;
     std::string lastname_;
     class Date {
@@ -33,7 +33,7 @@ class Student: public Person {
   public:
 // overload operator to increase feespaid by amount specified
 // in parameter
-    feespaid(int paid) {feespaid_  = feespaid_ operator+ paid;}
+    //feespaid(int paid) {feespaid_  = feespaid_ operator+ paid;}
   };
 // Course class
 class Course {
