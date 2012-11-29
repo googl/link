@@ -32,7 +32,7 @@ class Student: public Person {
   public:
 // overload operator to increase feespaid by amount specified
 // in parameter
-    feespaid+= operator + (paid);
+   :: feespaid() {feespaid operator + paid;}
   };
 // Course class
 class Course {
