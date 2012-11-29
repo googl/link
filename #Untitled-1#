@@ -11,4 +11,7 @@ should also output the total fees paid and the amount due. Overlad the plus
 operator within the student class such that it increases the feespaid variable
 by an amount specified in the parameter.
 
-Create a class named  Course that contains C
+Create a class named  Course that contains Coursename, Coursecode, Number of
+credits, and Cost per Credit which is a static variable.
+
+Create a function called 
