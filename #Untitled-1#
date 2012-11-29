@@ -5,4 +5,5 @@ virtual show function.
 
 Create a Student class that inherits from the Person Class and adds StudentId,
 feespaid and Courses(this is an Array object of the Course class, A student can
-register for a maximum of 
+register for a maximum of 6 courses and a minimum of 3). The show function calls
+calculatetotalfees that calculate and outputs 5h3
