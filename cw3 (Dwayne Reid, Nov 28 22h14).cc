@@ -9,6 +9,11 @@ namespace {
 }
 // Variables ending with '_' are members of a class.
 // Person class
+class Date {
+      int day_;
+      int month_;
+      int year_;
+    };
 class Person {
   public:
 
@@ -17,11 +22,7 @@ class Person {
   private:
     std::string firstname_;
     std::string lastname_;
-    class Date {
-      int day_;
-      int month_;
-      int year_;
-    };
+
     std::string address_;
     std::string telephone_;
 };
